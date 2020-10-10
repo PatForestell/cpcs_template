@@ -1,0 +1,16 @@
+---
+title: "CPCS Template"
+author: "Patrick Forestell"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+mail: "forsetell.patrick@gmail.com"
+# !!! You need to provide a logo image here !!! Or just delete the field for no logo
+logo: "cpcs_logo.png"
+output:
+  cpcs::cpcs:
+    toc: TRUE
+    number_sections: FALSE
+    code_folding: "hide"
+---
+
+
+# Introduction

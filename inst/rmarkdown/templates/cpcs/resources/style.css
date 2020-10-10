@@ -1,0 +1,88 @@
+
+
+/* ---------- Links ----------------- */
+a {
+  color: #001E60;
+}
+a:hover {
+  color: #D9D9D6;
+}
+
+pre {
+    border: 0px solid #cccccc;
+    border-radius: 0px;
+ }
+
+pre.a {
+}
+
+/* ---------- TOC ----------------- */
+#TOC {
+  top: 3%;
+  position: fixed;
+  width: 210px;
+}
+.tocify {
+  border: none;
+  color: grey;
+  border-radius: 0px;
+}
+.list-group-item.active {
+    color: #001E60;
+    background-color: white;
+    border-left: solid;
+    border-color: #001E60;
+}
+.list-group-item:hover {
+    color: #001E60;
+    background-color: white;
+    border-left: solid;
+    border-color: #001E60;
+}
+.tocify-extend-page {
+  display: none;
+}
+
+/* ------ This is just to fix the bug on Safari where table of content is on top of content */
+.toc-content {
+  margin-left: 210px
+}
+
+/* ------ Don't display on small media */
+@media (max-width: 1400px) {
+  #TOC {
+    width: auto;
+    display: none;
+  }
+  .toc-content {
+    margin-left: auto
+  }
+}
+
+/* ---------- Captions ----------------- */
+
+.htmltools caption {
+color: black;
+text-align: center;
+font-family: Arial;
+font-weight: bold;
+font-size: xx-large;
+}
+
+
+/* ---------- Button ----------------- */
+.btn {
+    border-width: 0 0px 0px 0px;
+    font-weight: normal;
+    text-transform: ;
+    color: #001E60;
+}
+.btn-default {
+    color: #001E60;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus > btn:hover {
+    background-color: #001E60;
+}
